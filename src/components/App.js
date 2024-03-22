@@ -1,6 +1,18 @@
-import React, { Component, useState } from "react";
-import '../styles/App.css';
-import Game from "./Game";
+import React from "react";
+import GolfGame from './GolfGame';
+
+const App = () => {
+  return (
+    <div>
+      <GolfGame />
+    </div>
+  );
+};
+
+
+// import React, { Component, useState } from "react";
+// import '../styles/App.css';
+// import Game from './Game';
 
 // class App extends Component {
 //     constructor(props) {
@@ -38,13 +50,5 @@ import Game from "./Game";
 //         )
 //     }
 // }
-
-const App = () => {
-    return (
-        <div>
-            <Game/>
-        </div>
-    );
-};
 
 export default App;
